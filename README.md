@@ -19,7 +19,7 @@ The PL-SQL program //
   - No use of GOTOs, EXITS, or SAVEPOINTS.
   - No use of hardcoded values.
 
-Exception handling //
+Error handling //
 
 The program handles all exceptions and writes the transactional history information
 that caused the error as well as the error message to the WKIS_ERROR_LOG table.
